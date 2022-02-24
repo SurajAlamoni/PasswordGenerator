@@ -6,8 +6,8 @@ numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 chars = ['%','!','#','$','*']
 
 value = int(input("how many alphabets do u want"))
-numbs = int(input("how many numbs u want"))
-ch = int(input("how many symbols u want"))
+numbs = int(input("how many numbers do u want"))
+ch = int(input("how many symbols do u want"))
 
 password = []
 for n in range(1,value+1):
