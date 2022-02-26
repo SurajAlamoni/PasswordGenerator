@@ -6,9 +6,9 @@ alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 chars = ['%','!','#','$','*']
 
-value = int(float(st.text_input("how many alphabets do u want")))
-numbs = int(float(st.text_input("how many numbers do u want")))
-ch = int(float(st.text_input("how many symbols do u want")))
+value = int(input("how many alphabets do u want"))
+numbs = int(input("how many numbers do u want"))
+ch = int(input("how many symbols do u want"))
 
 # value = 4
 # numbs = 2
